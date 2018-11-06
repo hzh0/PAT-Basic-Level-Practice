@@ -28,7 +28,7 @@ int main(void)
         int level_yi = (i % 10) * 10 + i / 10;
         if (abs(i - level_yi) / (level_yi*1.0) == (x / (y*1.0))) {
             printf("%d ", i);
-			judge(i, my_level);
+	    judge(i, my_level);
             printf(" ");
             judge(level_yi, my_level);
             printf(" ");
